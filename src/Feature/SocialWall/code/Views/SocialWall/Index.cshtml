@@ -1,4 +1,10 @@
-﻿
+﻿@model Feature.SocialWall.Models.SocialPostViewModel
+
 <h1>
     YEs!
 </h1>
+
+@foreach (var post in Model.Posts)
+{
+    <div>@post.Author, @post.Date, @post.ImageUrl, @post.Message</div>
+}

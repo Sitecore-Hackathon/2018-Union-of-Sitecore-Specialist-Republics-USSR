@@ -105,6 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\SocialWall.cs" />
+    <Compile Include="Models\SocialPostViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Templates.cs" />
   </ItemGroup>
@@ -114,9 +115,7 @@
     <None Include="Views\web.config" />
     <Content Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\SocialServices\code\Foundation.SocialServices.csproj">
       <Project>{f2e2cb44-95c8-4a36-9692-fdd9268234a0}</Project>
