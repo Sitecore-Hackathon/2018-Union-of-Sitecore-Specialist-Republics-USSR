@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{17DD5718-6E13-4F2C-9738-B410396D4552}"
 EndProject
@@ -29,12 +29,48 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D27C83
 		documentation\images\hackathon.png = documentation\images\hackathon.png
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SocialServices", "SocialServices", "{99A07B66-98C8-47F6-A236-029EF3D8C96C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.SocialServices", "src\Foundation\SocialServices\code\Foundation.SocialServices.csproj", "{F2E2CB44-95C8-4A36-9692-FDD9268234A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SocialWall", "SocialWall", "{B3902E9A-739A-4CA5-9ECB-AED96B000A7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.SocialWall", "src\Feature\SocialWall\code\Feature.SocialWall.csproj", "{5FF3DB34-EC3C-4070-9F6E-A5A1484D9F55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{CFD5D1C7-304A-4C36-86C5-21CD9D31632E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Sample", "src\Project\Sample\code\Project.Sample.csproj", "{1AA170D8-F58F-4370-8775-03BFEF201322}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2E2CB44-95C8-4A36-9692-FDD9268234A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E2CB44-95C8-4A36-9692-FDD9268234A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E2CB44-95C8-4A36-9692-FDD9268234A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E2CB44-95C8-4A36-9692-FDD9268234A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF3DB34-EC3C-4070-9F6E-A5A1484D9F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF3DB34-EC3C-4070-9F6E-A5A1484D9F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF3DB34-EC3C-4070-9F6E-A5A1484D9F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF3DB34-EC3C-4070-9F6E-A5A1484D9F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA170D8-F58F-4370-8775-03BFEF201322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA170D8-F58F-4370-8775-03BFEF201322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA170D8-F58F-4370-8775-03BFEF201322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA170D8-F58F-4370-8775-03BFEF201322}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D27C83D2-2EAF-4E44-A1ED-2B3C2EBB5854} = {DAFED8F5-6CBD-4384-AAD6-DC3BCCF24911}
+		{99A07B66-98C8-47F6-A236-029EF3D8C96C} = {4FDA1DCD-D33E-447E-91C1-F4AE818E2CF0}
+		{F2E2CB44-95C8-4A36-9692-FDD9268234A0} = {99A07B66-98C8-47F6-A236-029EF3D8C96C}
+		{B3902E9A-739A-4CA5-9ECB-AED96B000A7E} = {17DD5718-6E13-4F2C-9738-B410396D4552}
+		{5FF3DB34-EC3C-4070-9F6E-A5A1484D9F55} = {B3902E9A-739A-4CA5-9ECB-AED96B000A7E}
+		{CFD5D1C7-304A-4C36-86C5-21CD9D31632E} = {15D97D61-D597-42EC-B7E9-E9EC8130E630}
+		{1AA170D8-F58F-4370-8775-03BFEF201322} = {CFD5D1C7-304A-4C36-86C5-21CD9D31632E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}
