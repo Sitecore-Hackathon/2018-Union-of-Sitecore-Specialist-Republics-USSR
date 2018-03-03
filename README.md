@@ -14,7 +14,7 @@ Category: SXA
 
 ## Installation
 
-Install Sitecore package via Installation wizard
+Install [Sitecore package](sc.package/Hackathon Social Wall-0.1.zip) via Installation wizard
 
 ## Usage
 

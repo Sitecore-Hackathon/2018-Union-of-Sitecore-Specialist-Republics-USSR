@@ -20,10 +20,10 @@ namespace Feature.SocialWall.Controllers
             var dataSourceId = RenderingContext.CurrentOrNull.Rendering.DataSource;
             var dataSource = Sitecore.Context.Database.GetItem(dataSourceId);
 
-            var title = dataSource.Fields["Title"].Value;
-            var countValue = dataSource.Fields["Count"].Value;
-            var socialServicesValue = dataSource.Fields["Social Services"].Value;
-            var socialServices = socialServicesValue.Split('|');
+            var title = dataSource.Fields["Title"].Value ?? "Social wall";
+            var countValue = dataSource.Fields["Count"].Value ?? "100";
+            var socialServicesValue = string.IsNullOrEmpty(dataSource.Fields["Social Services"].Value) ? "" : dataSource.Fields["Social Services"].Value;
+            var socialServices = socialServicesValue.Split(new [] {'|'}, StringSplitOptions.RemoveEmptyEntries);
 
             int count = 0;
             int.TryParse(countValue, out count);
