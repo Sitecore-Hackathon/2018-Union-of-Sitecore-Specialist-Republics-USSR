@@ -22,7 +22,7 @@ CMS user adds a Social Wall component to the page and configure a title, number 
 
 To configure the data sources add appropriate items to $Site\Settings\Social Services
 
+[Video demonstration](https://youtu.be/0UupsicYNSE)
+
 ![Social wall front-end](documentation/images/socialwall.png?raw=true "Social wall front-end")
 ![Social wall config](documentation/images/config.png?raw=true "Social wall config")
-
-Video 1
