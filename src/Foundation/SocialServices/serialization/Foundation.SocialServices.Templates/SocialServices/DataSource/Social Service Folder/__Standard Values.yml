@@ -1,0 +1,25 @@
+﻿---
+ID: "f5a1c4b2-febe-40bf-a1be-c730efff2fc4"
+Parent: "42d1313a-503d-4870-aad3-c5ac6c4a2523"
+Template: "42d1313a-503d-4870-aad3-c5ac6c4a2523"
+Path: /sitecore/templates/Foundation/SocialServices/DataSource/Social Service Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {60660225-7FD1-4303-BBCA-DF2FDE1EC113}
+    {91A6C2AA-F068-4E3C-923D-C8378FDB9B38}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T124908Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
