@@ -1,10 +1,113 @@
-﻿@model Feature.SocialWall.Models.SocialPostViewModel
+﻿@using Foundation.SocialServices.Models
+@model Feature.SocialWall.Models.SocialPostViewModel
+
+
+<style>
+	* {
+        box-sizing: border-box;
+    }
+
+    .socialWall-grid {
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 200px);
+        grid-auto-rows: 200px;
+        grid-auto-flow: dense;
+    }
+
+    .item {
+        overflow: hidden;
+        display: grid;
+    }
+
+    .item img {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .item.block-2-1 {
+        grid-column: span 2;
+    }
+
+    .item.block-2-2 {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .item.block-3-2 {
+        grid-column: span 3;
+        grid-row: span 2;
+    }
+
+    .item.block-3-3 {
+        grid-column: span 3;
+        grid-row: span 2;
+    }
+
+    .item .message {
+        padding: 20px;
+    }
+
+    .item a {
+        text-decoration: none;
+    }
+
+        .item.twitter {
+            background-color: #00aced;
+            color: antiquewhite;
+        }
+
+    .item.facebook {
+        background-color: antiquewhite;
+        color: #111111;
+    }
+</style>
+
+@helper renderItem(SocialPost post) {
+    var block = "block-2-1";
+    if (post.Type == SocialTypes.Twitter) {
+        if (!string.IsNullOrEmpty(post.ImageUrl))
+        {
+            block = "block-3-3";
+        } else {
+            block = "block-1-1";
+        }
+    } else if (post.Type == SocialTypes.Facebook) {
+
+            block = "block-2-1";
+
+    }
+
+    <div class="item @block @post.Type.ToString().ToLower()">
+        <a href="@post.Url">
+            @if (!string.IsNullOrEmpty(post.ImageUrl) && post.Type == SocialTypes.Twitter)
+            {
+                <img src="@post.ImageUrl" />
+            }
+            else
+            {
+                    <div class="message">
+                        @*@post.Author*@
+                        @*@post.Date*@
+                        @post.Message
+                    </div>
+
+            }
+        </a>
+
+    </div>
+}
 
 <h1>
-    YEs!
+    @Model.Title
 </h1>
 
-@foreach (var post in Model.Posts)
-{
-    <div>@post.Author, @post.Date, @post.ImageUrl, @post.Message</div>
-}
+<div class="socialWall-grid">
+    @foreach (var post in Model.Posts)
+    {
+        @renderItem(post)
+    }
+</div>

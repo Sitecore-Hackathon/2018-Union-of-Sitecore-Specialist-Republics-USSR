@@ -59,6 +59,7 @@ namespace Feature.SocialWall.Controllers
 
             return View("~/Views/SocialWall/Index.cshtml", new SocialPostViewModel
             {
+                Title = title,
                 Posts = posts.OrderByDescending(x=>x.Date).Take(count).ToList()
             });
         }

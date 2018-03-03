@@ -10,6 +10,8 @@ namespace Feature.SocialWall.Models
             Posts = new List<SocialPost>();
         }
 
+        public string Title { get; set; }
+
         public List<SocialPost> Posts { get; set; }
     }
 }
