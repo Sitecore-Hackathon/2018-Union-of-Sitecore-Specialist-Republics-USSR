@@ -1,38 +1,28 @@
 ![Hackathon Logo](documentation/images/hackathon.png?raw=true "Hackathon Logo")
 
-# Submission Boilerplate
+# Social Wall Module for SXA
+Module purpose: Allow to put a "social wall" module to a page that shows an aggregated listing of social posts from multiple sources. Currently supported:
+- Facebook
+- Twitter 
 
-Welcome to Sitecore Hackathon 2018.
+Category: SXA
 
-The Hackathon site can be found at http://www.sitecorehackathon.org/sitecore-hackathon-2018/
+## Prerequisites 
 
-This purpose of repository is to provide a sample which shows how to structure the Hackathon submissions. We highly recommend
+- Sitecore 9.0 Update 1 Module 
+- SXA 1.6
 
+## Installation
 
-## Entry Submission Requirements 
+Install Sitecore package via Installation wizard
 
-All teams are required to submit the following as part of their entry submission on or before the end of the Hackathon on **Saturday March 3rd 2018 at 8PM EST**. The modules should be based on [Sitecore 9.0 rev. 171219 (Update-1)](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/90/Sitecore_Experience_Platform_90_Update1.aspx).
+## Usage
 
-**Failure to meet any of the requirements will result in automatic disqualification.** Please reach out to any of the organisers or judges if you require any clarification.
+CMS user adds a Social Wall component to the page and configure a title, number of posts and social data sources.
 
-- Sitecore 9.0 Update 1 Module (Module install package)
-   - An installation Sitecore Package (`.zip` or `.update`)
+To configure the data sources add appropriate items to $Site\Settings\Social Services
 
-- Module code in a public Git source repository. We will be judging (amongst other things):
-  - Cleanliness of code
-  - Commenting where necessary
-  - Code Structure
-  - Standard coding standards & naming conventions
+![Social wall front-end](documentation/images/socialwall.png?raw=true "Social wall front-end")
+![Social wall config](documentation/images/config.png?raw=true "Social wall config")
 
-- Precise and Clear Installation Instructions document (1 – 2 pages)
-- Module usage documentation on [Readme.md](documentation) file on the Git Repository (2 – 5 pages)
-  - Module Purpose
-  - Module Sitecore Hackathon Category
-  - How does the end user use the Module?
-  - Screenshots, etc.
-
-- Create a 2 – 10 minutes video explaining the module’s functionality (A link to youtube video)
-
-  - What problem was solved
-  - How did you solve it
-  - What is the end result
+Video 1
