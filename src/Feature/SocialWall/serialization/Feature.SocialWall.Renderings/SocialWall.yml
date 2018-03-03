@@ -1,6 +1,6 @@
 ﻿---
-ID: "5a48762f-dec4-413e-bee8-f716964292f5"
-Parent: "1dd51b8e-bcaf-4060-b07f-0d0b4feb1537"
+ID: "4d3abe04-3730-48f9-86b5-34b144371189"
+Parent: "da61ad50-8fdb-4252-a68f-b4470b1c9fe8"
 Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
 Path: /sitecore/layout/Renderings/Feature/SocialWall
 DB: master
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180303T081552Z
+      Value: 20180303T093040Z

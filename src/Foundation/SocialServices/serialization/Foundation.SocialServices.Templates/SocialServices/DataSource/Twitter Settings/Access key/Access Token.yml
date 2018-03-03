@@ -1,0 +1,21 @@
+﻿---
+ID: "5b68ef81-1d06-4ddf-acce-c55c3d832dc8"
+Parent: "2faf5f04-9a43-4045-9798-ecb0e32a54d0"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/SocialServices/DataSource/Twitter Settings/Access key/Access Token
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180303T100107Z

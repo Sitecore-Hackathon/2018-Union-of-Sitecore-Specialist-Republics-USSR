@@ -1,6 +1,6 @@
 ﻿---
-ID: "3f2af927-5875-45c4-9821-bb1d2b9ab25e"
-Parent: "03d4b1e2-ec9a-411b-b73e-b3d7e4df0134"
+ID: "4d8be39b-de65-4067-a19a-7de4e7c58422"
+Parent: "b26bd035-8d0a-4df3-8f67-2de3c7fdd74a"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/SocialServices
 DB: master
@@ -11,7 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180303T081644Z
+      Value: 20180303T092951Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

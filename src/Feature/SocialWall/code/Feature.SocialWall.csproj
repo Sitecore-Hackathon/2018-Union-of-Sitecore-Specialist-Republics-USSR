@@ -104,18 +104,18 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\SocialWall.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <Content Include="Views\SocialWall\Index.cshtml" />
     <None Include="Views\web.config" />
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\SocialWall\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\SocialServices\code\Foundation.SocialServices.csproj">

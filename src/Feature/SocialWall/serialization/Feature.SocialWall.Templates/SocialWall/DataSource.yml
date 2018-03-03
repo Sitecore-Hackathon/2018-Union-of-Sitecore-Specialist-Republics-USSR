@@ -1,8 +1,8 @@
 ﻿---
-ID: "75d7724a-67b2-4445-b4aa-7fff258ebcf1"
-Parent: "8f343079-3cc5-4ef7-bc27-32addb46f45e"
+ID: "3b6c8a0e-6bcc-4b3c-9486-1264e84337ed"
+Parent: "75d7724a-67b2-4445-b4aa-7fff258ebcf1"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/SocialWall
+Path: /sitecore/templates/Feature/SocialWall/DataSource
 DB: master
 Languages:
 - Language: en
@@ -11,7 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180303T092944Z
+      Value: 20180303T095438Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
